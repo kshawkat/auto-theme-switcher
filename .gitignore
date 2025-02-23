@@ -1,0 +1,26 @@
+# Build output directories
+bin/
+obj/
+
+# Visual Studio cache directories
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs and diagnostics
+*.log
+*.dmp
+
+# Package artifacts
+*.nupkg
+packages/
+
+# Publish folders
+publish/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

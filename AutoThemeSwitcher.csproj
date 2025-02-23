@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyTitle>Windows Theme Switcher</AssemblyTitle>
+    <ApplicationIcon>AutoThemeSwitcher.ico</ApplicationIcon>
+    <AssemblyName>AutoThemeSwitcher</AssemblyName>
+    <Version>2.5.0</Version>
+    <Authors>Khalid Shawkat</Authors>
+    <Company>Jugund Inc.</Company>
+    <Description>Automatically switches Windows 11 theme based on Sunrise/Sunset</Description>
+    <Copyright>Copyright © 2025 Jugund Inc.</Copyright>
+    
+    <!-- Single File Publishing Configuration -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishTrimmed>false</PublishTrimmed>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TaskScheduler" Version="2.12.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+</Project>
