@@ -102,7 +102,7 @@ If issues persist, check the logs and [open an issue](https://github.com/kshawka
 
 ## Building from Source
 
-1. Clone the repo: `git clone https://github.com/kshawkat/AutoThemeSwitcher.git`.
+1. Clone the repo: `https://github.com/kshawkat/auto-theme-switcher.git`.
 2. Open in Visual Studio 2022+.
 3. Set to Release mode and publish as single-file (self-contained).
 4. Requires .NET 9.0 SDK.
